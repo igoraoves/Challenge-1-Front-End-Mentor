@@ -5,11 +5,12 @@ body {
 section {
   background-color: white;
   width: 300px;
-  height: 500px;
+  height: 510px;
   border-radius: 15px;
   margin: auto;
   margin-top: 50px;
   text-align: center;
+  box-shadow: 0px 10px 10px hsl(225, 100%, 85%);
 }
 
 .heroimage {
@@ -31,7 +32,7 @@ section {
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
-  color: gray;
+  color: hsl(224, 23%, 55%);
 }
 
 .container {
@@ -54,7 +55,7 @@ section {
 }
 
 .annual_plan p {
-  color: gray;
+  color: hsl(224, 23%, 55%);
   font-size: 12px;
 
 }
@@ -67,28 +68,36 @@ section {
  
 .proceed{
   background: hsl(245, 75%, 52%);
-  height: 30px;
-  max-width: 250px;
-  border-radius: 10px;
+  height: 35px;
+  max-width: 230px;
+  border-radius: 7px;
   margin: auto;
   box-shadow: 0px 10px 10px hsl(225, 100%, 85%);
 }
-
+.proceed:hover {
+  background: hsl(224, 23%, 55%);
+}
 .proceed p {
   font-size: 12px;
   font-weight: bold;
-  color: aliceblue;
-  padding-top: 5px;
+  color: hsl(225, 100%, 98%);
+  padding-top: 10px;
+  text-align: center;
 
 }
 
 .cancel {
   font-size: 12px;
   font-weight: bold;
-  color: gray;
+  color: hsl(224, 23%, 55%);
+  margin-top: 20px;
+}
+
+.cancel:hover {
+  color: hsl(224, 23%, 65%);
 }
 
 footer {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 60px;
   }
