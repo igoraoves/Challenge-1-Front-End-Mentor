@@ -52,12 +52,12 @@ section {
 }
 .annual_plan b {
   font-size: 12px;
+  line-height: 15px;
 }
 
 .annual_plan p {
   color: hsl(224, 23%, 55%);
   font-size: 12px;
-
 }
 
 .change_link {
