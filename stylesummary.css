@@ -41,14 +41,14 @@ section {
   background: hsl(225, 100%, 98%);
   margin: 40px;
   border-radius: 15px;
-  max-width: 300px;
+  max-width: 320px;
   height: 70px;
-  line-height: 5px;
+  line-height: 1px;
 }
 
 .icon_music {
   padding: 10px;
-  max-width: 40px;
+  max-width: 35px;
 }
 .annual_plan b {
   font-size: 12px;
